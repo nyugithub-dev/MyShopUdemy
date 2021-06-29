@@ -52,13 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
-    <Compile Include="Migrations\202106280327113_Initial.cs" />
-    <Compile Include="Migrations\202106280327113_Initial.designer.cs">
-      <DependentUpon>202106280327113_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202106280520275_AddBasket.cs" />
-    <Compile Include="Migrations\202106280520275_AddBasket.designer.cs">
-      <DependentUpon>202106280520275_AddBasket.cs</DependentUpon>
+    <Compile Include="Migrations\202106291133060_Initial1.cs" />
+    <Compile Include="Migrations\202106291133060_Initial1.designer.cs">
+      <DependentUpon>202106291133060_Initial1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,11 +71,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202106280327113_Initial.resx">
-      <DependentUpon>202106280327113_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280520275_AddBasket.resx">
-      <DependentUpon>202106280520275_AddBasket.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202106291133060_Initial1.resx">
+      <DependentUpon>202106291133060_Initial1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

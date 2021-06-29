@@ -39,6 +39,11 @@ namespace MyShop.Services
                 if(!string.IsNullOrEmpty(basketId))
                 {
                     basket = basketContext.Find(basketId);
+
+                    if(basket == null)
+                    {
+                        basket = CreateNewBasket(httpContext);
+                    }
                 }
                 else
                 {
